@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
-    <title>Controller Model | @yield('title')</title>
+    <title>BoolMovies | @yield('title')</title>
 </head>
 <body>
 

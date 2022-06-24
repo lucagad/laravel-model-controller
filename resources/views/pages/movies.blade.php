@@ -1,5 +1,7 @@
 @extends('layout.main')
 
+@section('title', 'Movies')
+
 @section('content')
 
 <main class="container">
