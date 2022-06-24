@@ -8,9 +8,9 @@
 
         <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item"><a href="{{ Route('home')}}" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="{{ Route('movies')}}" class="nav-link px-2 text-muted">Movies</a></li>
-            <li class="nav-item"><a href="{{ Route('about')}}" class="nav-link px-2 text-muted">About</a></li>
-            <li class="nav-item"><a href="{{ Route('contact')}}" class="nav-link px-2 text-muted">Contact Us</a></li>
+            <li class="nav-item"><a href="{{ Route('movies')}}" class="nav-link px-2 text-muted">Film</a></li>
+            <li class="nav-item"><a href="{{ Route('contact')}}" class="nav-link px-2 text-muted">Contatti</a></li>
+            <li class="nav-item"><a href="{{ Route('about')}}" class="nav-link px-2 text-muted">Informazioni</a></li>
         </ul>
     </section>
 </footer>

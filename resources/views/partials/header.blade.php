@@ -7,9 +7,9 @@
 
     <ul class="nav nav-pills">
         <li class="nav-item"><a href="{{ Route('home')}}" class="nav-link {{Route::currentRouteName() === 'home' ? 'active' : '' }}" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="{{ Route('movies')}}" class="nav-link {{Route::currentRouteName() === 'movies' ? 'active' : '' }}">Movies</a></li>
-        <li class="nav-item"><a href="{{ Route('about')}}" class="nav-link {{Route::currentRouteName() === 'about' ? 'active' : '' }}">About</a></li>
-        <li class="nav-item"><a href="{{ Route('contact')}}" class="nav-link {{Route::currentRouteName() === 'contact' ? 'active' : '' }}">Contact Us</a></li>
+        <li class="nav-item"><a href="{{ Route('movies')}}" class="nav-link {{Route::currentRouteName() === 'movies' ? 'active' : '' }}">Film</a></li>
+        <li class="nav-item"><a href="{{ Route('contact')}}" class="nav-link {{Route::currentRouteName() === 'contact' ? 'active' : '' }}">Contatti</a></li>
+        <li class="nav-item"><a href="{{ Route('about')}}" class="nav-link {{Route::currentRouteName() === 'about' ? 'active' : '' }}">Informazioni</a></li>
     </ul>
     </navbar>
 </header>

@@ -4,8 +4,8 @@
 
 @section('content')
 
-<main class="container">
-    <h1>MOVIES</h1>
+<main class="container py-2">
+    <h1>I nostri Film</h1>
 
     <div class="movies_card_container">
 

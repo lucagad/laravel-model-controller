@@ -1,0 +1,17 @@
+header{
+    height: 90px;
+
+    navbar{
+        a{
+            color: red !important;
+            &.active{
+                color: white !important;
+                background-color: red !important;
+            }
+        }
+        img{
+            width: 60px;
+            margin-right: 20px;
+        }
+    }
+}
