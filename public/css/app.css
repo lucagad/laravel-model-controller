@@ -1,3 +1,7 @@
+header {
+  height: 90px;
+}
+
 header navbar a {
   color: red !important;
 }
@@ -10,6 +14,53 @@ header navbar a.active {
 header navbar img {
   width: 60px;
   margin-right: 20px;
+}
+
+main {
+  height: calc(100vh - 90px - 91px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+main .movies_card_container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main .movies_card_container .movie_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 25px;
+  width: 280px;
+  height: 300px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+main .movies_card_container .movie_card ul {
+  padding: 0;
+  list-style: none;
+}
+
+main .btn_custom {
+  color: red !important;
+  background-color: white;
+  border: 1px solid red;
+}
+
+main .btn_custom:hover {
+  color: white !important;
+  background-color: red !important;
+  border: 1px solid red;
+}
+
+footer {
+  height: 75px;
 }
 
 footer img {
